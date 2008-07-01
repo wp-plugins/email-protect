@@ -14,11 +14,11 @@ The Email Protect WordPress plugin protects email addresses from being harvested
 
 Features:
 
-* Automatically protect email addresses from spam harvesters in posts, pages, and comments
-* Obfuscate email addresses using text (myemail [at] example [dot] com) or images
-* Control email text replacement for the "@" sign and final period in emails
-* Control font, font color, background color, and border color of obfuscated email images
-* Convert any email address in your template into obfuscated text or images by inserting a simple function call into your pages
+-Automatically protect email addresses from spam harvesters in posts, pages, and comments
+-Obfuscate email addresses using text (myemail [at] example [dot] com) or images
+-Control email text replacement for the "@" sign and final period in emails
+-Control font, font color, background color, and border color of obfuscated email images
+-Convert any email address in your template into obfuscated text or images by inserting a simple function call into your pages
 
 == Installation ==
 
