@@ -34,7 +34,17 @@ Use the automatic upgrade feature. Otherwise download a fresh copy and simply re
 
 == Frequently Asked Questions ==
 
-Please see the plugins homepage for an up-to-date FAQ.
+Template Usage:
+
+Email addresses are automatically obfuscated in posts, pages, and comments. You can chose the obfuscation method (text or image) under the "Settings" menu. Email addresses in comments are always obfuscated using the text method.
+
+To obfuscate an email address directly in a template file, enter a PHP code that mimicks the following style:
+`<?php if(function_exists('ep_email_protect')){ ep_email_protect($email, $type); } ?>`
+
+The $email variable holds your email address and the $type is an optional variable that can either be "text" or "image" depending on the type of obfuscation you want. If you don't specify a type the default setting in the options menu is used. For example, if your email address is myemail@example.com and you want it converted into an image, you would enter the following into your theme's template file:
+`<?php if(function_exists('ep_email_protect')){ ep_email_protect('myemail@example.com', 'image'); } ?>`
+
+If you wanted text obfuscation, simply change "image" to "text." It is important to remember the single quotes around both the email address and the type in the above function. The function above is designed so that if you deactivate the plugin it will not break your theme.
 
 == Screenshots ==
 
