@@ -4,7 +4,7 @@ Donate link: http://simply-basic.com/
 Tags: email, obfuscate, spam
 Requires at least: 2.3
 Tested up to: 2.5.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 Automatically protects email address in posts, pages, and comments by converting them into safe alternatives (such as an images or obfuscated text) to prevent spam harvesters from collecting them. 
 
