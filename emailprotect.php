@@ -4,7 +4,7 @@ Plugin Name: Email Protect
 Plugin URI:  http://simply-basic.com/email-protect-plugin
 Description: Automatically changes email address is posts, pages, and comments into safe alternatives (such as an image) to prevent spam harvesters from collecting them. You can also use this in your templates by placing <code>&lt;?php ep_email_protect('email@example.com') ?&gt;</code> in your templates. Adjust settings and view "Read Me" under Email Protect in the Options/Settings page
 Author: John Kolbert
-Version: 1.0
+Version: 1.0.1
 Author URI: http://simply-basic.com/
 
 Copyright Notice
